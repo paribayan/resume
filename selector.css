@@ -1,0 +1,37 @@
+
+.change-font-size{
+    font-size: 5px;
+    }
+h2{
+    color:rgb(9, 184, 14);
+}
+h3{
+    color: blueviolet;
+}
+h4{
+    color: rgb(246, 9, 9);
+}
+h5{
+    color: rgb(255, 0, 157);
+
+}
+h6{
+    color: rgb(109, 29, 3);
+}
+/* combining combiners */
+ul > p.obtained, h1{
+    font-size: rem;
+}
+/*style="background-color:rgba(255, 228, 196, 0.588);"*/.container {
+  height: 90vh;
+  margin: 2rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+}
+
+h6{
+    font: bold;
+    align-items: center;
+    text-align: center;
+}
